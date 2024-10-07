@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    include: swagger
+  kafka:
+    bootstrap-servers:
+    - localhost:9092
+    consumer:
+      group-id: banco-milionario    
+server:
+  port: 8082
+  
+  
